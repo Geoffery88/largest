@@ -4,19 +4,10 @@
 using namespace std;
 
 int main() {    
-    float n1, n2, n3;
+    float a, b, c,largest;
 
-    cout << "Enter three numbers: ";
-    cin >> n1 >> n2 >> n3;
-
-    if(n1 >= n2 && n1 >= n3)
-        cout << "Largest number: " << n1;
-
-    if(n2 >= n1 && n2 >= n3)
-        cout << "Largest number: " << n2;
-    
-    if(n3 >= n1 && n3 >= n2)
-        cout << "Largest number: " << n3;
-  
+     //   try this
+        largest=a>b?(a>c?a:c):(b>c?b:c);
+        cout << "Largest number: " << largest;
     return 0;
 }
